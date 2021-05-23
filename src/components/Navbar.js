@@ -4,14 +4,17 @@ import logo from "../assets/images/uxx.png";
 // import { NavHashLink } from 'react-router-hash-link';
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark navbar-trans fixed-top bg-primary">
+    <nav
+      className="navbar navbar-expand-lg navbar-dark shadow-lg navbar-trans fixed-top"
+      style={{ background: " #6c00de " }}
+    >
       <div className="container-lg">
         <a className="navbar-brand" href="#home">
           <img src={logo} style={{ maxWidth: "40px" }} alt="img" />
           My Portfolio
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler navtoggl"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
