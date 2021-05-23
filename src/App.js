@@ -1,8 +1,12 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import Footer from './Footer';
 
 const App = () => {
   return (
-    <div className="App">
+    <div>
+      <Navbar/>
+      <Footer/>
     </div>
   );
 }
