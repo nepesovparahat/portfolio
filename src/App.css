@@ -1,0 +1,18 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-brand {
+  font-family: cursive;
+}
