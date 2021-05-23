@@ -30,6 +30,11 @@ h4,
 a {
   font-weight: bold !important;
 }
+/*  */
+.progress {
+  margin-bottom: 15px !important;
+  text-align: justify !important;
+}
 
 @media only screen and (max-width: 900px) {
   .slider {
@@ -38,6 +43,10 @@ a {
   .container-lg > a {
     font-size: 20px;
   }
+  .about {
+    font-size: 16px !important;
+  }
+
   .navtoggl {
     width: 2.8rem;
     height: 2.5rem;
