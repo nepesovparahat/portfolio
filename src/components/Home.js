@@ -5,7 +5,7 @@ import third from "../assets/images/third.jpg";
 
 function Home() {
   return (
-    <div className="content" id="home">
+    <div className="home-container" id="home">
       <div
         id="carouselExampleDark"
         className="carousel carousel-dark slide"
@@ -34,7 +34,7 @@ function Home() {
           />
         </div>
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval={1000}>
+          <div className="carousel-item active" data-bs-interval={10000}>
             <img src={first} className="d-block w-100 slider" alt="first-img" />
             <div className="carousel-caption d-none d-md-block">
               <h3>I like coding and problem solving.</h3>

@@ -5,7 +5,7 @@ import logo from "../assets/images/uxx.png";
 const Navbar = () => {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-dark shadow-lg navbar-trans fixed-top"
+      className="navbar navbar-expand-lg navbar-dark navbar-trans nav fixed-top"
       style={{ background: " #6c00de " }}
     >
       <div className="container-lg">

@@ -3,6 +3,9 @@
 :before {
   box-sizing: border-box;
 }
+body {
+  background: #ffffff;
+}
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -16,14 +19,15 @@
 .navbar-brand {
   font-family: Arial, Helvetica, sans-serif;
 }
-.container-about {
-  height: 100vh;
-}
 .home-container {
   height: 100vh;
+  margin-top: 60px !important;
+}
+.nav {
+  top: 0 !important;
 }
 .slider {
-  height: 35rem;
+  height: 45rem;
 }
 h3,
 h4,
@@ -35,10 +39,36 @@ a {
   margin-bottom: 15px !important;
   text-align: justify !important;
 }
+.content {
+  padding-top: 100px !important;
+  box-shadow: 2px solid #bdc6c9;
+}
+/* works*/
+.sect {
+  padding-top: 5rem;
+}
+.title-box {
+  margin-bottom: 4rem;
+}
+
+.col-box {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.img-box {
+  width: 400px;
+  height: 200px;
+  background: #d5dad5;
+}
+
+.shadow {
+  padding: 30px !important;
+}
 
 @media only screen and (max-width: 900px) {
   .slider {
-    height: 18rem;
+    height: 20rem;
+    width: 100%;
   }
   .container-lg > a {
     font-size: 20px;
@@ -53,5 +83,24 @@ a {
   }
   li > a {
     font-size: 16px !important;
+  }
+  .home-container {
+    height: 45vh;
+    padding-top: 10px !important;
+  }
+  .conten {
+    height: 55rem;
+    padding-top: 5rem !important;
+  }
+  .mt {
+    margin-top: 25px !important;
+  }
+  .img-box {
+    width: 300px;
+    height: 150px;
+    background: #d5dad5;
+  }
+  .shadow {
+    padding: 25px !important;
   }
 }
