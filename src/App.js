@@ -1,11 +1,11 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
-import Comments from "./components/Comments";
+import AddComment from "./components/AddComment";
 import Contact from "./components/Contact";
 import Work from "./components/Work";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
   return (
@@ -14,9 +14,14 @@ const App = () => {
       <Home />
       <About />
       <Work />
-      <Comments />
+      <Router>
+        <Switch>
+          <Route exact path="/" />
+          <Route exact path="/comments/add" component={AddComment} />
+        </Switch>
+      </Router>
+      <AddComment />
       <Contact />
-      <Footer />
     </div>
   );
 };

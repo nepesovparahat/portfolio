@@ -9,7 +9,7 @@ import avarage from "../assets/images/avarag.png";
 const Work = () => {
   return (
     <section id="work" className="portfolio-mf sect">
-      <div className="container shadow bg-body rounded" id="work">
+      <div className="container shadow bg-body rounded">
         <div className="row">
           <div className="col-sm-12">
             <div className="title-box text-center">
@@ -37,6 +37,7 @@ const Work = () => {
                 <a
                   href="https://github.com/nepesovparahat/Facebook-Clone"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary"
                 >
                   view project
@@ -62,6 +63,7 @@ const Work = () => {
                 <a
                   href="https://github.com/nepesovparahat/Redux-Shopping-Cart"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary"
                 >
                   view project
@@ -87,6 +89,7 @@ const Work = () => {
                 <a
                   href="https://github.com/nepesovparahat/Weather-Forecast"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary"
                 >
                   view project
@@ -110,6 +113,7 @@ const Work = () => {
                 <a
                   href="https://github.com/nepesovparahat/React-Query"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary"
                 >
                   view project
@@ -135,6 +139,7 @@ const Work = () => {
                 <a
                   href="https://github.com/nepesovparahat/Vuex-Api-List"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary"
                 >
                   view project
@@ -160,6 +165,7 @@ const Work = () => {
                 <a
                   href="https://github.com/nepesovparahat/Vue-Average-Calculation"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary"
                 >
                   view project
