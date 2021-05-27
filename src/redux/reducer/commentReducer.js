@@ -1,4 +1,4 @@
-import { CREATE_COMMENT, GET_COMMENT, DELETE_COMMENT } from "../constant/types";
+import { CREATE_COMMENT, DELETE_COMMENT } from "../constant/types";
 
 const intialState = {
   comments: [],
@@ -11,18 +11,6 @@ export const commentReducer = (state = intialState, action) => {
       return {
         ...state,
         comments: [action.payload, ...state.comments],
-      };
-    case GET_COMMENT:
-      let arrItem = state.comments.filter(
-        (comment) => comment.id == action.payload
-      );
-      arrItem = arrItem.values();
-      for (let i of arrItem) {
-        arrItem = i;
-      }
-      return {
-        ...state,
-        comment: arrItem,
       };
     case DELETE_COMMENT:
       return {
