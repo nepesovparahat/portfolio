@@ -11,4 +11,3 @@ export const deleteComment = (id) => ({
   type: DELETE_COMMENT,
   payload: id,
 });
-

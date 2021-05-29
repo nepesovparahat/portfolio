@@ -1,10 +1,6 @@
 A simple Portfolio template for developer / designers built with React. Use it to showcase your work, testimonials, and other information to your customers. Users can comment and delete on the comment page of this project. I did this using redux.
 
 > ### 🎆✨ Live Demo: [React-Portfolio ](https://np-react-portfolio.netlify.app/)
----
-
-
-##
 
 ---
 
@@ -15,11 +11,11 @@ A simple Portfolio template for developer / designers built with React. Use it t
 - [Redux-Thunk](https://www.npmjs.com/package/redux-thunk) version : 2.3.0
 - [Bootsrap](https://www.npmjs.com/package/bootstrap/v/5.0.0-alpha1) version : 5.0.0
 
- 
 ## Features
 
 - Users can comment and delete
-- Responsive design 
+- Responsive design
+
 ---
 
 ## Setup Project:

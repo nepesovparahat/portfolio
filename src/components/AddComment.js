@@ -10,14 +10,8 @@ function AddComment() {
   const dispatch = useDispatch();
   const [title, setTitle] = useState("");
   const [comment, setComment] = useState("");
-  const [input, setInput] = useState({ Title: "", Comment: "" });
-  const [button, setButton] = useState("Button");
-
   const userComments = useSelector((state) => state.comment.comments);
 
-  const _handleChange = (e) => {
-    setInput({ ...input, [e.target.name]: "" });
-  };
   const handleSubmit = (e) => {
     e.preventDefault();
     const newComment = {
@@ -27,10 +21,6 @@ function AddComment() {
     };
     dispatch(addComment(newComment));
     history.push("/");
-    setInput({ Title: "", Comment: "" });
-    setButton("Submitted");
-    setTimeout(() => setButton("Button"), 1000);
-    console.log("Submitted");
   };
   return (
     <section id="comments" className="portfolio-mf sect">
@@ -66,7 +56,6 @@ function AddComment() {
                 <div className="col-md-12 mb-3">
                   <div className="form-group">
                     <input
-                      name="title"
                       type="text"
                       value={title}
                       onChange={(e) => setTitle(e.target.value)}
@@ -80,7 +69,6 @@ function AddComment() {
                 <div className="col-md-12 mb-3">
                   <div className="form-group">
                     <textarea
-                      name="comment"
                       className="form-control"
                       value={comment}
                       row={5}
@@ -91,11 +79,7 @@ function AddComment() {
                   </div>
                 </div>
                 <div class="col-12 mt-2">
-                  <button
-                    class="btn btn-primary"
-                    onClick={_handleChange}
-                    type="submit"
-                  >
+                  <button class="btn btn-primary" type="submit">
                     Submit
                   </button>
                 </div>
