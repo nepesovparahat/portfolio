@@ -19,9 +19,12 @@ function AddComment() {
       title: title,
       comment: comment,
     };
+    setTitle("");
+    setComment("");
     dispatch(addComment(newComment));
     history.push("/");
   };
+
   return (
     <section id="comments" className="portfolio-mf sect">
       <div className="container shadow bg-body rounded">
@@ -52,7 +55,7 @@ function AddComment() {
               ))}
             </div>
             <div classname="col-md-6 position-relative">
-              <form onSubmit={(e) => handleSubmit(e)}>
+              <form onSubmit={handleSubmit}>
                 <div className="col-md-12 mb-3">
                   <div className="form-group">
                     <input

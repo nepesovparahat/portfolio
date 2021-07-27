@@ -92,8 +92,3 @@ function Home() {
 }
 
 export default Home;
-/**
- *  <img src={first} className="d-block w-100 slider" alt="first-img" />
-  <img src={second} className="d-block w-100 slider" alt="second-img" />
- <img src={third} className="d-block w-100 slider" alt="third-img" />
- */

@@ -2,7 +2,7 @@ import React from "react";
 import face from "../assets/images/facebook.png";
 import shop from "../assets/images/shoop.png";
 import weather from "../assets/images/weatherr.png";
-import vuex from "../assets/images/vuexx.png";
+import netflix from "../assets/images/netflix.jpeg";
 import query from "../assets/images/react-query.png";
 import avarage from "../assets/images/avarag.png";
 
@@ -21,11 +21,13 @@ const Work = () => {
         <div className="row">
           <div className="col-md-4 m-6">
             <div classname="shadow">
-              <img
-                className="figure-img img-fluid rounded"
-                src={face}
-                alt="face-img"
-              />
+              <a href="https://facebook-cln.netlify.app/" target="_blank">
+                <img
+                  className="figure-img img-fluid rounded"
+                  src={face}
+                  alt="face-img"
+                />
+              </a>
               <h5 className="text-center">Facebook Clone</h5>
               <p className="caption text-justify">
                 This project Facebook's design patterns using the React. The aim
@@ -47,11 +49,13 @@ const Work = () => {
           </div>
           <div className="col-md-4 m-6">
             <div classname="shadow">
-              <img
-                className="figure-img img-fluid rounded"
-                src={shop}
-                alt="shop-img"
-              />
+              <a href="https://redux-shop-mobile.netlify.app/" target="_blank">
+                <img
+                  className="figure-img img-fluid rounded"
+                  src={shop}
+                  alt="shop-img"
+                />
+              </a>
               <h5 className="text-center">Shopping Cart</h5>
               <p className="caption text-justify">
                 This app built with React components and redux. I used
@@ -73,11 +77,16 @@ const Work = () => {
           </div>
           <div className="col-md-4 m-6">
             <div classname="shadow">
-              <img
-                className="figure-img img-fluid rounded"
-                src={weather}
-                alt="weather-img"
-              />
+              <a
+                href="https://friendly-poitras-bd33ab.netlify.app/"
+                target="_blank"
+              >
+                <img
+                  className="figure-img img-fluid rounded"
+                  src={weather}
+                  alt="weather-img"
+                />
+              </a>
               <h5 className="text-center">Weather Forecast</h5>
               <p className="caption text-justify">
                 I wanted to try and see how hard would it be to implement one of
@@ -99,11 +108,16 @@ const Work = () => {
           </div>
           <div className="col-md-4 m-6">
             <div classname="shadow">
-              <img
-                className="figure-img img-fluid rounded"
-                src={query}
-                alt="vuex-img"
-              />
+              <a
+                href="https://relaxed-franklin-2cf855.netlify.app/"
+                target="_blank"
+              >
+                <img
+                  className="figure-img img-fluid rounded"
+                  src={query}
+                  alt="query-img"
+                />
+              </a>
               <h5 className="text-center">React Query</h5>
               <p className="caption text-justify">
                 This app is listing two API data and I added a button to list
@@ -123,21 +137,24 @@ const Work = () => {
           </div>
           <div className="col-md-4 m-6">
             <div classname="shadow">
-              <img
-                className="figure-img img-fluid rounded"
-                src={vuex}
-                alt="query-img"
-              />
-              <h5 className="text-center">Product List</h5>
+              <a href="https://netflix-clone-vue.netlify.app/" target="_blank">
+                <img
+                  className="figure-img img-fluid rounded"
+                  src={netflix}
+                  alt="netflix-img"
+                />
+              </a>
+              <h5 className="text-center">Netfix Clone</h5>
               <p className="caption text-justify">
-                I made a small project where changes can be made to the listing
-                of API data.This project lists the data received from an API,
-                adding data to these data with the input field, deleting it by
-                clicking the delete icon.
+                In project, I tried to simulate the Netflix interface using
+                Vue.js to practice pulling data from TMDb API with Axios. I used
+                the Swiper library for SCSS and Slider in the design. How to
+                write code better, how to manage folder structure etc. Any tips
+                on it would be really appreciated.
               </p>
               <div className="text-center mb-5">
                 <a
-                  href="https://github.com/nepesovparahat/Vuex-Api-List"
+                  href="https://github.com/nepesovparahat/netflix-clone"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
@@ -149,11 +166,16 @@ const Work = () => {
           </div>
           <div className="col-md-4 m-6">
             <div classname="shadow">
-              <img
-                className="figure-img img-fluid rounded"
-                src={avarage}
-                alt="avarage-img"
-              />
+              <a
+                href="https://thirsty-brattain-740cf5.netlify.app/"
+                target="_blank"
+              >
+                <img
+                  className="figure-img img-fluid rounded"
+                  src={avarage}
+                  alt="avarage-img"
+                />
+              </a>
               <h5 className="text-center">Vue Averaga</h5>
               <p className="caption text-justify">
                 This project can calculate the student's GPA online. The student
