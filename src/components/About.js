@@ -55,13 +55,13 @@ function About() {
                       </div>
                     </div>
                     <div className="text-start">REACT</div>
-                    <div className="text-end">75%</div>
+                    <div className="text-end">85%</div>
                     <div className="progress">
                       <div
                         className="progress-bar"
                         role="progressbar"
-                        style={{ width: 75 + "%" }}
-                        aria-valuenow="75"
+                        style={{ width: 85 + "%" }}
+                        aria-valuenow="85"
                         aria-valuemin="0"
                         aria-valuemax="100"
                       >
@@ -69,13 +69,13 @@ function About() {
                       </div>
                     </div>
                     <div className="text-start">VUE</div>
-                    <div className="text-end">95%</div>
+                    <div className="text-end">80%</div>
                     <div className="progress">
                       <div
                         className="progress-bar"
                         role="progressbar"
-                        style={{ width: 95 + "%" }}
-                        aria-valuenow="95"
+                        style={{ width: 80 + "%" }}
+                        aria-valuenow="80"
                         aria-valuemin="0"
                         aria-valuemax="100"
                       >
